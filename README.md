@@ -3,11 +3,14 @@ Async APIs, WebHooks, WebSubs
 
 Configuring Webhooks from GitHub (localhost)
 
--ngrok (/payload)
--ruby
--sinatra
--HMAC signature included (as a string)
--environmental variable for secret
+<ul>
+  <li>ngrok (/payload)</li>
+  <li>ruby</li>
+  <li>sinatra</li>
+  <li>dotenv</li>
+  <li>HMAC signature included (as a string)</li>
+  <li>environmental variable for secret</li>
+</ul>
 
 Configuring Webhooks from GitHub (web)
 
